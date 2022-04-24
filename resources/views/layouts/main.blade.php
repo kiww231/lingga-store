@@ -86,7 +86,7 @@
 
                             <p class="mb-4 font-16 text-white-50">Untuk Info Pemesanan Silahkan hubungi kami di</p>
 
-                            <a href="wa.me/6281292777978" target="_blank" class="btn btn-success"><i
+                            <a href="https://wa.me/6281292777978" target="_blank" class="btn btn-success"><i
                                     class="mdi mdi-whatsapp ms-1"></i> Whatsapp</a>
                         </div>
                     </div>
