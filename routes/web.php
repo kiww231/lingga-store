@@ -17,7 +17,7 @@ Route::get('','HomeController@index');
 Route::get('wedding{id}','WeddingController@index');
 Route::post('kirim_ucapan','Admin\UcapanController@store');
 
-Route::resource('bukber','BukberController');
+Route::resource('undangan-buka-bersama','BukberController');
 
 Auth::routes();
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
