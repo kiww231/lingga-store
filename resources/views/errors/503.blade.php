@@ -26,7 +26,7 @@
                         <div class="text-center">
                             <img src="{{asset('assets/admin')}}/images/maintenance.svg" height="140" alt="File not found Image">
                             <h3 class="mt-4">Maaf Website Sedang Ada Perbaikan</h3>
-                            <p class="text-muted">Jika ada yang mau ditanyakan silahkan hubungi admin di <a href="wa.me/62812929777978">0812929777978</a></p>
+                            <p class="text-muted">Jika ada yang mau ditanyakan silahkan hubungi admin di <a href="https://wa.me/62812929777978" target="_blank">0812929777978</a></p>
 
                             <div class="row mt-5">
                                 <div class="col-md-4">
