@@ -96,8 +96,9 @@
 		    			<div class="col-md-8 col-md-offset-2">
 			    			<div class="fh5co-owl-text-wrap">
 						    	<div class="fh5co-owl-text text-center to-animate">
-						    		<h1 class="fh5co-lead">Undangan Buka Bersama</h1>
+						    		<h1 class="fh5co-lead">Undangan Bukber</h1>
 									<h2 class="fh5co-sub-lead">Angkatan 2011</h2>
+									<h2 class="fh5co-sub-lead">Cipeundeuy - 30 April 2022</h2>
 						    	</div>
 						    </div>
 					    </div>
@@ -123,13 +124,19 @@
 	</div>	
 	<div id="fh5co-main">
 		<!-- Features -->
-
 		<div id="fh5co-features">
 			<div class="container">
 				<div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2">
+						<h2 class="fh5co-section-sub-lead">Assalamualaikum Wr. Wb.</h2>
+                        <h3 class="fh5co-section-sub-lead">Di undang kepada seluruh alumni angkatan 2011, agar dapat menghadiri acara buka bersama yang akan di adakan pada :</h3>
+                        <h3 class="fh5co-section-sub-lead"><a>Sabtu, 30 April 2022</a></h3>
+                        <h3 class="fh5co-section-sub-lead"><a>Pukul 16.00 - Selesai</a></h3>
+                        <h3 class="fh5co-section-sub-lead"><a>Tempat Mushola MTs Cipeundeuy</a></h3>
+					</div>
+                    <div class="fh5co-spacer fh5co-spacer-md"></div>
 					<div class="col-md-8 col-md-offset-2">
 						<h2 class="fh5co-section-lead">Acara</h2>
-						<h3 class="fh5co-section-sub-lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h3>
 					</div>
 					<div class="fh5co-spacer fh5co-spacer-md"></div>
 				</div>
@@ -141,7 +148,7 @@
 							</div>
 							<div class="fh5co-feature-text">
 								<h3>Temu Kangen Alumni</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+								<p></p>
 							</div>
 						</div>
 						<div class="fh5co-feature no-border">
@@ -150,7 +157,7 @@
 							</div>
 							<div class="fh5co-feature-text">
 								<h3>Kultum</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+								<p></p>
 							</div>
 						</div>
 					</div>
@@ -161,7 +168,7 @@
 							</div>
 							<div class="fh5co-feature-text">
 								<h3>Buka Bersama</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+								<p></p>
 							</div>
 						</div>
 						<div class="fh5co-feature no-border">
@@ -170,7 +177,7 @@
 							</div>
 							<div class="fh5co-feature-text">
 								<h3>Nostalgia</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+								<p></p>
 							</div>
 						</div>
 					</div>
@@ -187,9 +194,12 @@
 					<h2 class="fh5co-section-lead">Kontak</h2>
 					<h3 class="fh5co-section-sub-lead"><a href="http://wa.me/6282217110236" target="_blank" class="btn btn-primary"><i class="icon-whatsapp"></i>082217110236 (Zaki)</a></h3>
                     <h2 class="fh5co-section-lead">Transfer</h2>
-					<h3 class="fh5co-section-sub-lead">430601022730536 (BRI a.n. FAIZAL RAFI AL HAMDANI)</h3>
+					<h3 class="fh5co-section-sub-lead"><a>430601022730536 (BRI a.n. FAIZAL RAFI AL HAMDANI)</a></h3>
 				</div>
 				<div class="fh5co-spacer fh5co-spacer-md"></div>
+                <div class="col-md-12 text-center">
+                    <h2 class="fh5co-section-sub-lead">Wassalamuaalaikum Wr. Wb.</h2>
+                </div>
 			</div>
 		</div>
 		<!-- Products -->
@@ -202,8 +212,7 @@
 					<div class="col-md-8 col-md-offset-2">
 						<div class="fh5co-hero-wrap">
 							<div class="fh5co-hero-intro text-center">
-								<h1 class="fh5co-lead"><span class="quo">&ldquo;</span>Design is not just what it looks like and feels like. Design is how it works. <span class="quo">&rdquo;</span></h1>
-								<p class="author">&mdash; <cite>Steve Jobs</cite></p>
+								<h1 class="fh5co-lead"><span class="quo">&ldquo;</span>Mageutkeun Rasa Dina Manah<span class="quo">&rdquo;</span></h1>
 							</div>
 						</div>
 					</div>
