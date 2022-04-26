@@ -29,7 +29,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
     Route::resource('/gallery','Admin\GalleryController');
 });
 
-Route::get('/config-cache/{config}', function($config) {
+Route::get('/artisan/{config}', function($config) {
     $exitCode = Artisan::call($config);
     return 'Berhasil';
 }); 
