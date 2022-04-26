@@ -185,7 +185,7 @@
 			<div class="row text-left">
 				<div class="col-md-8">
 					<h2 class="fh5co-section-lead">Kontak</h2>
-					<h3 class="fh5co-section-sub-lead"><i class="icon-whatsapp"></i><a href="http://wa.me/6282217110236" target="_blank">082217110236 (Zaki)</a></h3>
+					<h3 class="fh5co-section-sub-lead"><a href="http://wa.me/6282217110236" target="_blank" class="btn btn-primary"><i class="icon-whatsapp"></i>082217110236 (Zaki)</a></h3>
                     <h2 class="fh5co-section-lead">Transfer</h2>
 					<h3 class="fh5co-section-sub-lead">430601022730536 (BRI a.n. FAIZAL RAFI AL HAMDANI)</h3>
 				</div>
