@@ -7,7 +7,7 @@
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="{{asset('assets/admin')}}/images/favicon.ico">
+        <link rel="shortcut icon" href="{{asset('assets/admin')}}/images/lingga.png">
         
         <!-- App css -->
         <link href="{{asset('assets/admin')}}/css/icons.min.css" rel="stylesheet" type="text/css" />
@@ -25,8 +25,8 @@
 
                         <div class="text-center">
                             <img src="{{asset('assets/admin')}}/images/maintenance.svg" height="140" alt="File not found Image">
-                            <h3 class="mt-4">Site Maintenance</h3>
-                            <p class="text-muted">Kami akan segera datang.</p>
+                            <h3 class="mt-4">Maaf Website Sedang Ada Perbaikan</h3>
+                            <p class="text-muted">Jika ada yang mau ditanyakan silahkan hubungi admin di <a href="wa.me/62812929777978">0812929777978</a></p>
 
                             <div class="row mt-5">
                                 <div class="col-md-4">
