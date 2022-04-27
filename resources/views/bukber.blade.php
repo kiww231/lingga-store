@@ -62,7 +62,83 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<style>
+		.overlay {
+			height: 100%;
+			width: 100%;
+			display: none;
+			position: fixed;
+			text-align: center;
+			z-index: 9999;
+			top: 0;
+			left: 0;
+			box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7);
+			background-image: url({{asset('assets/template-bukber/images/image.jpg')}});
+		}
 
+		.overlay .btn {
+			border: none !important;
+			background: #FBB040;
+			color: #fff;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 400;
+		}
+
+		.overlay-content {
+			position: relative;
+			top: 25%;
+			width: 100%;
+			text-align: center;
+			margin-top: 30px;
+		}
+
+		.overlay a:hover, .overlay a:focus {
+			color: #f1f1f1;
+		}
+
+		.overlay .closebtn {
+			position: absolute;
+			top: 20px;
+			right: 45px;
+			font-size: 60px;
+		}
+
+		@media screen and (max-height: 450px) {
+			.overlay a {font-size: 20px}
+			.overlay .closebtn {
+				font-size: 40px;
+				top: 15px;
+				right: 35px;
+			}
+		}
+
+		.floatmusic {
+			position: fixed;
+			bottom: 80px;
+			right: 20px;
+			z-index: 999;
+		}
+
+		.floatmusic a {
+			width: 50px;
+			height: 50px;
+			display: table;
+			background: #F14E95;
+			color: #fff;
+			text-align: center;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			-ms-border-radius: 4px;
+			border-radius: 4px;
+		}
+
+		.floatmusic a i {
+			height: 50px;
+			display: table-cell;
+			vertical-align: middle;
+		}
+	</style>
 	</head>
 	<body>
 		
@@ -105,7 +181,7 @@
 		    		</div>
 		    	</div>
 		    </div>
-		    <div class="item" style="background-image:url({{asset('assets/template-bukber')}}/images/slide_2.jpg)">
+		    <div class="item" style="background-image:url({{asset('assets/template-bukber')}}/images/slide_2.jpeg)">
 		    	<div class="fh5co-overlay"></div>
 		    	<div class="container">
 		    		<div class="row">
@@ -204,7 +280,46 @@
 		</div>
 		<!-- Products -->
 		<div class="fh5co-spacer fh5co-spacer-lg"></div>
-
+		<div class="container" id="fh5co-products">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="{{asset('assets/template-bukber/gallery')}}/001.jpeg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="{{asset('assets/template-bukber/gallery')}}/002.jpeg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+					</div>
+				</div>
+				<div class="visible-sm-block visible-xs-block clearfix"></div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="{{asset('assets/template-bukber/gallery')}}/003.jpeg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="{{asset('assets/template-bukber/gallery')}}/004.jpeg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="{{asset('assets/template-bukber/gallery')}}/005.jpeg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="{{asset('assets/template-bukber/gallery')}}/006.jpeg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-mb30">
+					<div class="fh5co-product">
+						<img src="{{asset('assets/template-bukber/gallery')}}/007.jpg" alt="FREEHTML5.co Free HTML5 Template Bootstrap" class="img-responsive img-rounded to-animate">
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="fh5co-bg-section" style="background-image: url({{asset('assets/template-bukber')}}/images/slide_2.jpg); background-attachment: fixed;">
 			<div class="fh5co-overlay"></div>
 			<div class="container">
@@ -231,6 +346,21 @@
 		</div>
 	</footer>
 
+	<div id="myNav" class="overlay">
+		<div id="fh5co-couple">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<div class="fh5co-spacer fh5co-spacer-md"></div>
+						<h2 class="fh5co-section-sub-lead" style="color: #f1f1f1;">Undangan Buka Bersama</h2>
+						<p>Alumni Angkatan 2011</p>
+						<a href="#" onclick="closeNav()" class="btn">Buka Undangan</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<audio id="myAudio" src="{{asset('assets')}}/music/music-ramadan.mp3" preload="auto"></audio>
 
 	<!-- jQuery -->
 	<script src="{{asset('assets/template-bukber')}}/js/jquery.min.js"></script>
@@ -246,7 +376,26 @@
 	<script src="{{asset('assets/template-bukber')}}/js/jquery.magnific-popup.min.js"></script>
 	<!-- Main JS -->
 	<script src="{{asset('assets/template-bukber')}}/js/main.js"></script>
+	<script>
+		$('document').ready(function(){
+			openNav();  
+		})
 
-	
+		function openNav() {
+			$("body").css({"overflow":"hidden"});
+			document.getElementById("myNav").style.display = "block";
+		}
+
+		function closeNav() {
+			$("body").css({"overflow":"visible"});
+			document.getElementById("myNav").style.display = "none";
+			togglePlay(); 
+		}
+
+		var myAudio = document.getElementById("myAudio");
+		function togglePlay() {
+			return myAudio.paused ? myAudio.play() : myAudio.pause();
+		};
+	</script>
 	</body>
 </html>
