@@ -13,11 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('','HomeController@index');
-Route::get('wedding{id}','WeddingController@index');
-Route::post('kirim_ucapan','Admin\UcapanController@store');
-
-Route::resource('undangan-buka-bersama','BukberController');
+Route::get('/','HomeController@index');
 
 Auth::routes();
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
@@ -27,6 +23,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
     Route::resource('/image_background','Admin\ImageBackgroundController');
     Route::resource('/ucapan','Admin\UcapanController');
     Route::resource('/gallery','Admin\GalleryController');
+
+    
 });
 
 Route::get('/artisan/{config}', function($config) {
