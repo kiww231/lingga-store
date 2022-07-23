@@ -14,7 +14,13 @@
         <link href="{{asset('assets/admin')}}/css/icons.min.css" rel="stylesheet" type="text/css" />
         <link href="{{asset('assets/admin')}}/css/app.min.css" rel="stylesheet" type="text/css" id="light-style" />
         <link href="{{asset('assets/admin')}}/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         @stack('style')
+        <style>
+            .star{
+                color: crimson;
+            }
+        </style>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script>
             const Toast = Swal.mixin({

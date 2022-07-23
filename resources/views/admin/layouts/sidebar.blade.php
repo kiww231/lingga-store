@@ -26,34 +26,26 @@
         <ul class="side-nav">
             <li class="side-nav-item {{ Request::is('admin')?'menuitem-active':'' }}">
                 <a href="{{url('admin')}}" class="side-nav-link">
-                    <i class="uil-calender"></i>
+                    <i class="fa-solid fa-house"></i>
                     <span> Home </span>
                 </a>
             </li>
-            <li class="side-nav-item {{ Request::is('admin/mempelai*')?'menuitem-active':'' }}">
-                <a href="{{url('admin/mempelai')}}" class="side-nav-link">
-                    <i class="uil-calender"></i>
-                    <span> Mempelai </span>
+            <li class="side-nav-item {{ Request::is('article')?'menuitem-active':'' }}">
+                <a href="{{url('admin/article')}}" class="side-nav-link">
+                    <i class="fa-regular fa-file-lines"></i>
+                    <span> Artikel </span>
                 </a>
             </li>
-
-            <li class="side-nav-item">
-                <a href="apps-chat.html" class="side-nav-link">
-                    <i class="uil-comments-alt"></i>
-                    <span> Chat </span>
-                </a>
-            </li>
-
             <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#sidebarEcommerce" aria-expanded="false" aria-controls="sidebarEcommerce" class="side-nav-link">
-                    <i class="uil-store"></i>
-                    <span> Ecommerce </span>
+                    <i class="fa-solid fa-gear"></i>
+                    <span> Landing Page </span>
                     <span class="menu-arrow"></span>
                 </a>
                 <div class="collapse" id="sidebarEcommerce">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="apps-ecommerce-products.html">Products</a>
+                            <a href="{{url('admin/feature')}}">Feature</a>
                         </li>
                         <li>
                             <a href="apps-ecommerce-products-details.html">Products Details</a>

@@ -12,7 +12,7 @@
         <ul>
           <li><a href="{{url('/')}}" class="active">Home</a></li>
           <li><a href="{{url('/catalogue')}}">Katalog</a></li>
-          <li><a href="{{url('/articel')}}">artikel</a></li>
+          <li><a href="{{url('/article')}}">artikel</a></li>
           <li><a href="{{url('/faqs')}}">FAQs</a></li>
           <li><a href="{{url('contact')}}">Kontak</a></li>
         </ul>

@@ -18,16 +18,15 @@ Route::get('/','HomeController@index');
 Auth::routes();
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function(){
     Route::get('/','Admin\HomeController@index');
-    Route::resource('/mempelai','Admin\MempelaiController');
-    Route::get('/mempelai/status/{id}/{status}', 'Admin\MempelaiController@status');
-    Route::resource('/image_background','Admin\ImageBackgroundController');
-    Route::resource('/ucapan','Admin\UcapanController');
-    Route::resource('/gallery','Admin\GalleryController');
-
-    
+    Route::resource('/feature','Admin\FeatureController');
+    Route::get('/feature/status/{id}/{status}','Admin\FeatureController@change_status');
+    Route::resource('/article','Admin\ArticleController');
+    Route::get('/article/status/{id}/{status}','Admin\ArticleController@change_status');
 });
 
 Route::get('/artisan/{config}', function($config) {
     $exitCode = Artisan::call($config);
     return 'Berhasil';
 }); 
+
+Route::get('/{slug}',['as' => 'article', 'uses' => 'ArticleController@detail'])->where('slug', '[A-Za-z0-9-_]+');

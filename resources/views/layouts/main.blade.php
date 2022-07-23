@@ -22,24 +22,24 @@
   <style>
     .float{
       position:fixed;
-      padding:5px;
-      width:100px;
-      height:40px;
-      bottom:70px;
-      right:15px;
-      background-color:#11887A;
+      padding:3px 15px 3px 15px;
+      bottom:0px;
+      right:70px;
+      background-color:#FF577B;
       color:#FFF;
-      border-radius:5px;
+      border-radius:5px 5px 0px 0px;
       text-align:center;
       font-size:20px;
       z-index:100;
+      vertical-align: middle;
     }
     .float span{
-      font-size: 12pt;
+      font-size: .75rem;
       font-weight: lighter;
     }
-    .my-float{
-      margin-top:10px;
+    .float:hover{
+      color:#FFF;
+      background-color:#e91e63;
     }
   </style>
 </head>
@@ -52,7 +52,7 @@
   <!-- ======= Hero Section ======= -->
   @yield('content')
   <a href="https://wa.me/6285772933413?text=Hallo Admin lingga-store.com" class="float" target="_blank">
-    <i class="bi bi-whatsapp my-float"></i> <span>Chat</span>
+    <i class="fa-regular fa-envelope" style="font-size: .95rem;"></i> <span>Hubungi Kami!</span>
   </a>
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
@@ -83,7 +83,7 @@
             <ul>
               <li><a href="{{url('/')}}">Home</a></li>
               <li><a href="{{url('/catalog')}}">Katalog</a></li>
-              <li><a href="{{url('/articel')}}">Artikel</a></li>
+              <li><a href="{{url('/article')}}">Artikel</a></li>
               <li><a href="{{url('/faqs')}}">FAQs</a></li>
               <li><a href="{{url('/contact')}}">Kontak</a></li>
             </ul>
